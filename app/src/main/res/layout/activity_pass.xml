@@ -1,0 +1,444 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/lot"
+    android:id="@+id/lout_bcg"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="16dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="12dp"
+            android:text="防疫防控程序"
+            android:textColor="#f9ffff"
+            android:id="@+id/lout_bcg_1"
+            android:background="@drawable/lot"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lout_bcg_12"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#2fdfa1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lout_bcg_13"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layyuan"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#f6f6f6"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-108dp"
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="105dp"
+
+            android:background="@drawable/layyuanbai"
+            >
+            <LinearLayout
+                android:id="@+id/lout_back"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="105dp"
+                android:paddingLeft="15dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dip"
+                    android:layout_height="82dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dip"
+                    android:adjustViewBounds="true"
+                    android:padding="2dip"
+                    android:background="@drawable/qrd"
+                    android:src="@drawable/qrcode"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="105dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="#333333"
+                    android:layout_marginTop="20dp"
+                    android:text="出入申请"/>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textColor="#333333"
+                    android:layout_marginLeft="1dp"
+                    android:text="出入申请，安全出行"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="105dp"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_marginTop="-5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textColor="#7f7f7f"
+                    android:layout_marginLeft="1dp"
+                    android:text="出入申请信息"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="2dp"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="2dp"
+
+            android:background="@drawable/layjianbian"
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="2dp"
+
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lout_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f6f6f6"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#f6f6f6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:id="@+id/tv_lastpass"
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:layout_weight="4"
+                    android:paddingLeft="28dp"
+                    android:text="上次申请记录"
+                    android:textColor="#3F51B5"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="65dp"
+                    android:text="人员姓名："
+                    android:textColor="#323232"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="28dp"
+                    />
+                <EditText
+                    android:id="@+id/et_pass_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center_vertical|right"
+                    android:hint="张三"
+                    android:textColor="#c67ca1"
+                    android:layout_marginTop="10dp"
+                    android:editable="false"
+                    android:textSize="30dp"
+                    android:textCursorDrawable="@null"
+                    android:textColorHint="#c67ca1"
+                    android:background="@null"
+                    android:paddingBottom="6dp"
+                    android:layout_height="50dp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:textColor="#eb3d3c"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="-5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="50dp"
+                    android:text="出园日期："
+                    android:textColor="#323232"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="28dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/et_pass_outDate"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="6"
+                    android:background="@null"
+                    android:clickable="true"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical|right"
+                    android:hint="请选择出园日期"
+                    android:paddingBottom="6dp"
+                    android:textColor="#2fdfa1"
+                    android:textColorHint="#2fdfa1"
+                    android:textCursorDrawable="@null"
+                    android:textSize="26dp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:textColor="#eb3d3c"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="-5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:layout_height="50dp"
+                    android:text="返回日期："
+                    android:textColor="#323232"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="28dp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/et_pass_inDate"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="6"
+                    android:background="@null"
+                    android:gravity="center_vertical|right"
+                    android:clickable="true"
+                    android:focusableInTouchMode="false"
+                    android:hint="请选择返回日期"
+                    android:paddingBottom="6dp"
+                    android:textColor="#CDDC39"
+                    android:textColorHint="#CDDC39"
+                    android:textCursorDrawable="@null"
+                    android:textSize="26dp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="20dp"
+                    android:text=""
+                    android:textColor="#eb3d3c"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="-5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#f6f6f6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="4"
+                    android:paddingLeft="28dp"
+                    android:text="外出原因："
+                    android:textColor="#323232"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:background="#f6f6f6">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp">
+
+                <EditText
+                    android:id="@+id/et_pass_remark"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="外出原因描述"
+                    android:minLines="3"
+                    android:gravity="top"
+                    android:textSize="18dp">
+
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="75dp"
+            android:background="#f6f6f6">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <Button
+                    android:id="@+id/btn_pass_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="申请提交"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btnb"
+                    />
+                <Button
+                    android:id="@+id/btn_pass_esc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_weight="1"
+                    android:text="返    回"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#FFF"
+                    android:background="@drawable/btnb"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
